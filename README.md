@@ -1,5 +1,5 @@
 # spsc-queue-benchmark
-Benchmarking suite for various single producer single consumer (SPSC) queue implementations. Feel free to add more implementations and open a PR.
+Benchmarks for various single producer single consumer (SPSC) queue implementations. Feel free to add more implementations and open a PR.
 
 We are currently benchmarking the following implementations:
 - [freref/spsc-queue](https://github.com/freref/spsc-queue)
