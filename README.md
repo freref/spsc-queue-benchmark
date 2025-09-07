@@ -1,9 +1,6 @@
 # spsc-queue-benchmark
 Benchmarking suite for various single producer single consumer (SPSC) queue implementations. Feel free to add more implementations and open a PR.
 
-> [!NOTE]
-> This project exists to support [my SPSC queue implementation in Zig](https://github.com/freref/spsc-queue).
-
 We are currently benchmarking the following implementations:
 - [freref/spsc-queue](https://github.com/freref/spsc-queue)
 - [*boost::lockfree::spsc*](https://www.boost.org/doc/libs/1_76_0/doc/html/boost/lockfree/spsc_queue.html)
