@@ -36,6 +36,10 @@
             .url = "https://github.com/freref/spsc-queue/archive/6a3692ff94dd4bab6f8b98b4b024eb59ad634401.tar.gz",
             .hash = "spsc_queue-0.0.0-AVEoh0gwAADYKymrb5yGo3zkDemam0o-_K7GdwFI984U",
         },
+        .zig_spsc_ring = .{
+            .url = "https://github.com/freref/zig-spsc-ring/archive/ee0dfbe99dc45894f56f7a511d59c743a3b3b3ff.tar.gz",
+            .hash = "zig_spsc_ring-0.0.0-Fs49xsIZAAAL74oysOnXDE6apzAJI16I_3n0ZTGguYDk",
+        },
     },
     .paths = .{
         "build.zig",

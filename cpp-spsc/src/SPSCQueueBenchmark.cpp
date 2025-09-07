@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
 
   using namespace rigtorp;
 
-  const size_t queueSize = 10000000;
+  const size_t queueSize = 16777216;
   const int64_t iters = 10000000;
 
   std::cout << "SPSCQueue:" << std::endl;

@@ -5,6 +5,7 @@ pub fn build(b: *std.Build) void {
     const optimize = b.standardOptimizeOption(.{});
 
     const spsc_queue = b.dependency("spsc_queue", .{});
+    const spsc_ring = b.dependency("zig_spsc_ring", .{});
 
     const exe = b.addExecutable(.{
         .name = "zig_spsc_benchmark",
@@ -12,12 +13,13 @@ pub fn build(b: *std.Build) void {
             .root_source_file = b.path("src/benchmark.zig"),
             .target = target,
             .optimize = optimize,
-            .imports = &.{
-                .{
-                    .name = "spsc_queue",
-                    .module = spsc_queue.module("spsc_queue"),
-                },
-            },
+            .imports = &.{ .{
+                .name = "spsc_queue",
+                .module = spsc_queue.module("spsc_queue"),
+            }, .{
+                .name = "spsc_ring",
+                .module = spsc_ring.module("spsc_ring"),
+            } },
         }),
     });
 
