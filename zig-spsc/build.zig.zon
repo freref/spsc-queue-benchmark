@@ -33,8 +33,8 @@
     // internet connectivity.
     .dependencies = .{
         .spsc_queue = .{
-            .url = "https://github.com/freref/spsc-queue/archive/6a3692ff94dd4bab6f8b98b4b024eb59ad634401.tar.gz",
-            .hash = "spsc_queue-0.0.0-AVEoh0gwAADYKymrb5yGo3zkDemam0o-_K7GdwFI984U",
+            .url = "https://github.com/freref/spsc-queue/archive/fd1ba3fcb3def2bb336c3376d4181a6210b8ba12.tar.gz",
+            .hash = "spsc_queue-0.0.0-AVEoh1VJAAAANyL-T7uKYvwDBTU9R0i42Avs_Bp-43wr",
         },
         .zig_spsc_ring = .{
             .url = "https://github.com/freref/zig-spsc-ring/archive/ee0dfbe99dc45894f56f7a511d59c743a3b3b3ff.tar.gz",
